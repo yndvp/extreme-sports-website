@@ -2,56 +2,59 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- css -->
-    <link rel="stylesheet" href="style.css" />
-    <title>Amazing Mountain</title>
-  </head>
-  <body>
-    <!-- navbar -->
-    <div class="navbar">
-      <!-- h1 & navigation container -->
-      <div class="links-container">
-        <h1><a href="#">AMAZING MOUNTAIN</a></h1>
-        <nav>
-          <ul>
-            <li><a href="#">SKI</a></li>
-            <li><a href="#">GOLF</a></li>
-            <li><a href="#">HIKING</a></li>
-            <li><a href="#">CONTACT</a></li>
-          </ul>
-        </nav>
-      </div>
-      <!-- weather container -->
-      <div class="weather-container">
-        <div class="weather-icon">
-          <img src="images/cloud.png" alt="weather-icon" />
-        </div>
-        <div class="weather-text">
-          <p>CURRENT WEATHER<span>-6&#8451;</span></p>
-          <p>RECENT SNOWFALL<span>35cm</span></p>
-        </div>
-      </div>
-    </div>
+    <title>Document</title>
+    <!-- Google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
 
-    <!-- hero -->
-    <main class="hero">
-      <div class="hero-container">
-        <div class="hero-contents">
-          <h2>Get next years pass <br />now to save</h2>
-          <p>
-            If it's too steep, you're too old. Straight shot shane mcconkey
-            lookout pass snowmass bode miller freestyle tree well durango corn
-            snow bromley mountain. Stockli st moritz sundown ripping the bumps
-            swix chowder boreal suzy chaffee bumps hospital air kastle.
-          </p>
-          <div class="links">
-            <a href="#" class="btn">GET A SEASONS PASS</a>
-            <a href="#" class="btn transparent">GET TICKETS</a>
-          </div>
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <header>
+      <img src="images/logo.svg" alt="" class="logo" />
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__list-item"><a href="#" class="nav__link">Ski</a></li>
+          <li class="nav__list-item"><a href="#" class="nav__link">Golf</a></li>
+          <li class="nav__list-item">
+            <a href="#" class="nav__link">Hiking</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="weather">
+        <div class="weather__icon">
+          <img
+            src="images/weather-icon.svg"
+            alt="current weather is partially cloudy"
+          />
         </div>
+        <p class="weather__info">Current weather <span>-6°C</span></p>
+        <p class="weather__info">recent snowfall <span>35cm</span></p>
       </div>
+    </header>
+
+    <main class="main main--ski">
+      <h1 class="main__title">Get next years pass now to save</h1>
+      <p class="main__intro">
+        If it's too steep, you're too old. Straight shot shane mcconkey lookout
+        pass snowmass bode miller freestyle tree well durango corn snow bromley
+        mountain. Stockli st moritz sundown ripping the bumps swix chowder
+        boreal suzy chaffee bumps hospital air kastle.
+      </p>
+      <p>
+        <a href="" class="btn btn--primary">Get a seasons pass</a
+        ><a href="" class="btn btn-outline">Get tickets</a>
+      </p>
     </main>
   </body>
 </html>
